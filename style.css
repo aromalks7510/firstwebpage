@@ -1,0 +1,335 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Sofadi One", system-ui;
+}
+.container {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(103, 82, 82);
+}
+.logo {
+    width: 150px;
+}
+.list-items {
+    list-style: none;
+    display: inline;
+    margin: 0px 20px;
+}
+.links {
+    color: orange;
+    text-decoration: none;
+    font-weight: 600;
+}
+.links:hover {
+    color: yellow;
+    text-decoration: underline;
+}
+#Home{
+width: 100%;
+height: 75%;
+}
+#image2{
+    width: 100%;
+    height: 100%;
+}
+#about {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color:  lightgray;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+}
+.secondhead {
+    width: 95%;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+}
+.aboutcontent {
+    width: 30%;
+    height: 100%;
+    line-height: 2.5;
+}
+#h1 {
+    margin-bottom: 25px;
+    line-height: 1.2;
+    float: right;
+    word-spacing: 10px;
+    letter-spacing: 3px;
+    font-size: 35px;
+}
+#contness {
+    float: right;
+    text-align: right;
+    font-size: 20px;
+    text-align: justify;
+}
+.aboutimage {
+    /* border: solid; */
+    width: 850px;
+    height: 100%;
+}
+#img3 {
+    width: 100%;
+    height: 100%;
+}
+#buttom {
+    text-decoration: none;
+    background-color: orange;
+    color: black;
+    padding: 2px;
+    display: inline-block;
+    border-radius: 10px;
+    font-family: "Protest Guerrilla", system-ui;
+    border-color: black;
+    border: solid 3ox;
+    float: right;
+    margin-left: 200px;
+    margin-top: 10px;
+}
+.mainimg {
+
+    width: 100%;
+    height: 75%;
+}
+.mainimg1 {
+    width: 100%;
+    height: 100%;
+}
+#name {
+    font-family: "Sofadi One", system-ui;
+    float: right;
+}
+.sectioncontent {
+    width: 45%;
+    height: 100%;
+}
+.sectionimg {
+    width: 45%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sectiondiv {
+    display: flex;
+    justify-content: space-between;
+}
+#contentdetails {
+    line-height: 1.3;
+    text-align: right;
+    float: right;
+    font-size: 20px;
+    font-family: "Sofadi One", system-ui;
+}
+#aboutus {
+    text-decoration: none;
+    background-color: orange;
+    color: white;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 10px;
+    margin-top: 25px;
+    float: right;
+    margin-top: 30px;
+    margin-left: 200px;
+}
+#destination {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.destinationdiv {
+    width: 90%;
+    height: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+.firstsection {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.secondsection {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.thirdsection {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.images {
+    width: 100%;
+    height: 45%;
+}
+.photos {
+    width: 100%;
+    height: 45%;
+}
+.imgtop {
+    width: 100%;
+    height: 100%;
+}
+.imgbottom {
+    width: 100%;
+    height: 100%;
+}
+.sizetop {
+    width: 100%;
+    height: 50%;
+}
+.sizebottom {
+    width: 100%;
+    height: 35%;
+}
+.logos {
+    width: 100%;
+    height: 25%;
+    display: flex;
+    background-color:  gray;
+}
+.logo1 {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo2{
+    width: 20%;
+    height: 100%;
+}
+#footer {
+    /* border: solid; */
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    background-color: orange;
+}
+.iconcollections {
+    margin-right: 50px;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#listul {
+    margin-left: 50px;
+    /* border: solid; */
+    width: 25%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 2.5rem;
+}
+.list2 {
+    list-style: none;
+}
+
+.linkf {
+    text-decoration: none;
+    color: black;
+}
+
+.linkf:hover {
+    color: white;
+}
+.icondiv {
+    display: flex;
+    /* border: solid; */
+    width: 90%;
+    height: 50px;
+    justify-content: space-around;
+    align-items: center;
+}
+.name {
+    font-size: 2.5rem;
+    color: black;
+}
+.iconss {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 10px;
+}
+.iconss:hover {
+    background-image: linear-gradient(to bottom right, red,blue);
+}
+
+.iconss:hover .name {
+    color: rgba( red,violet,);
+    animation: rotate 3s;
+}
+.imagefooter {
+    width: 150px;
+    height: 150px;
+}
+#imgdiv2 {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@keyframes rotate {
+    0% {
+        transform: rotate(30deg);
+    }
+
+    20% {
+        transform: rotate(-30deg);
+    }
+
+    40% {
+        transform: rotate(30deg);
+    }
+
+    60% {
+        transform: rotate(-30deg);
+    }
+
+    80% {
+        transform: rotate(30deg);
+    }
+
+    100% {
+        transform: rotate(-30deg);
+    }
+}
+#clsss {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#head {
+    margin-top: 15px;
+    font-size: 50px; 
+}
